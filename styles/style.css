@@ -1,7 +1,32 @@
-body {
-  background-color: rgb(250, 246, 246);
+:root {
+  --branding-color: rgb(249, 250, 248);
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+p {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: normal;
+}
+.beginTitle {
+  background-color: var(--branding-color);
+  text-align: center;
+  padding: 160px 0;
+}
+.beginTitle p {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
 }
 h1 {
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 86px;
+}
+.beginTitle h2 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 24px;
+  margin-bottom: 40px;
 }
