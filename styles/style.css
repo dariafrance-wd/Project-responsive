@@ -10,7 +10,9 @@ h5 {
 }
 p {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  font-weight: normal;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 30px;
 }
 .beginTitle {
   background-color: var(--branding-color);
@@ -25,8 +27,34 @@ p {
 h1 {
   font-size: 86px;
 }
+h2 {
+  font-size: 64px;
+}
 .beginTitle h2 {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-size: 24px;
   margin-bottom: 40px;
+}
+.project-descr {
+  padding: 120px 20px;
+}
+.img-fluid weather {
+  width: 70%;
+}
+@media (max-width: 900px) {
+  .project-descr {
+    padding: 0px;
+    text-align: center;
+  }
+  h1 {
+    font-size: 45px;
+  }
+  h2 {
+    font-size: 45px;
+  }
+  .beginTitle {
+    background-color: var(--branding-color);
+    text-align: center;
+    padding: 100px 0;
+  }
 }
