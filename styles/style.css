@@ -68,6 +68,33 @@ h2 {
   font-size: 14px;
   font-weight: bold;
 }
+.logo {
+  max-width: 150px;
+}
+nav {
+  padding: 20px 0px;
+}
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 40px;
+  margin-left: 20px;
+}
+nav a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #272142;
+  transition: all 100ms ease-in-out;
+}
+nav a:hover,
+nav li.active a {
+  color: rgb(136, 135, 135);
+}
+
 @media (max-width: 900px) {
   .project-descr {
     padding: 15px;
@@ -96,11 +123,22 @@ h2 {
     text-align: center;
     padding: 100px 0;
   }
+
+  nav li {
+    margin-left: 5px;
+  }
 }
 @media (max-width: 756px) {
   .content-container .img-fluid {
     padding-bottom: 15px;
     width: 300px;
     height: 300px;
+  }
+  .logo {
+    max-width: 90px;
+    max-height: 40px;
+  }
+  nav li {
+    margin-left: 8px;
   }
 }
