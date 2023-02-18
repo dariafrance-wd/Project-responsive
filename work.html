@@ -25,12 +25,16 @@
   <body>
     <div class="container">
       <nav class="d-flex justify-content-between">
-        <a href="/"> <img src="images/logo.png" alt="" class="logo" /></a>
+        <a href="/" title="Homepage">
+          <img src="images/logo.png" alt="Daria logo" class="logo"
+        /></a>
         <ul>
-          <li><a href="/index.html"> Home</a></li>
-          <li><a href="/about.html">About</a></li>
-          <li class="active"><a href="/">Work</a></li>
-          <li><a href="/contact.html">Contact</a></li>
+          <li><a href="/" title="Homepage"> Home</a></li>
+          <li><a href="/about.html" title="About Daria page">About</a></li>
+          <li class="active">
+            <a href="/work.html" title="Daria's work">Work</a>
+          </li>
+          <li><a href="/contact.html" title="Contact Daria ">Contact</a></li>
         </ul>
       </nav>
     </div>
@@ -39,26 +43,34 @@
         <h1 class="mb-4">Take a look at what I've been working on!</h1>
         <div class="row">
           <div class="col-lg-6">
-            <img src="images/recipe.png" alt="" class="img-fluid" />
+            <img src="images/recipe.png" alt="recipe image" class="img-fluid" />
             <h3 class="text-center">Recipe Project</h3>
             <p class="text-center text-muted">Built with HTML and CSS</p>
           </div>
           <div class="col-lg-6">
-            <img src="images/weather.png" alt="" class="img-fluid" />
+            <img
+              src="images/weather.png"
+              alt=" Weather image"
+              class="img-fluid"
+            />
             <h3 class="text-center">Wether Project</h3>
             <p class="text-center text-muted">
               Built with HTML, CSS and JavaScript
             </p>
           </div>
           <div class="col-lg-6">
-            <img src="images/3.png" alt="" class="img-fluid" />
+            <img src="images/3.png" alt="Dictionary Image" class="img-fluid" />
             <h3 class="text-center">Dictionary App</h3>
             <p class="text-center text-muted">
               Built with HTML, CSS with React
             </p>
           </div>
           <div class="col-lg-6">
-            <img src="images/weather.png" alt="" class="img-fluid" />
+            <img
+              src="images/weather.png"
+              alt="Weather image"
+              class="img-fluid"
+            />
             <h3 class="text-center">Translation App</h3>
             <p class="text-center text-muted">
               Built with HTML, CSS with React
@@ -66,6 +78,42 @@
           </div>
         </div>
       </div>
+      <footer>
+        <div class="contact-box d-flex justify-content-between">
+          <div>
+            <h4>Work Inquiry</h4>
+            <p class="text-muted">Let's work together</p>
+          </div>
+          <div>
+            <a href="/contact.html" class="btn btn-dark" title="Contact me"
+              >Contact me</a
+            >
+          </div>
+        </div>
+        <a href="mailto:dariafrance@gmail.com" class="email-link mb-4"
+          >dariafrance@gmail.com</a
+        >
+        <div class="social-links d-flex justify-content-center">
+          <a
+            href="https://www.instagram.com/d_purr_/"
+            target="_blank"
+            title="Instagram profile"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+          <a
+            href="https://github.com/dariafrance-wd"
+            target="_blank"
+            title="GitHub profile"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+          <a
+            href="https://www.facebook.com/daria.samoylenko.99"
+            target="_blank"
+            title="Facebook profile"
+            ><i class="fa-brands fa-facebook"></i
+          ></a>
+        </div>
+      </footer>
     </div>
   </body>
 </html>

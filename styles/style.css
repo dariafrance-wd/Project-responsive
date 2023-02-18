@@ -20,7 +20,7 @@ p {
 .beginTitle {
   background-color: var(--branding-color);
   text-align: center;
-  padding: 160px 0;
+  padding: 140px 0;
 }
 .beginTitle p {
   font-size: 36px;
@@ -56,7 +56,7 @@ h2 {
   font-weight: bold;
 }
 .content-container {
-  padding: 120px 20px;
+  padding: 60px 20px;
 }
 .content {
   margin: 30px;
@@ -164,7 +164,6 @@ footer .contact-box a {
   .beginTitle {
     background-color: var(--branding-color);
     text-align: center;
-    padding: 100px 0;
   }
 
   nav li {
